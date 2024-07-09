@@ -1,10 +1,33 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ホームページ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
-    HELLO WORLD
+    <header>
+        <h1>ホームページ</h1>
+    </header>
+    <main>
+        <p>
+            サンプル<br/>
+            あ<br/>
+            あ<br/>
+            あ<br/>
+            あ
+        </p>
+        <div class="button-container">
+            <button onclick="navigate('schoolnotice.html')">ページ1</button>
+            <button onclick="navigate('page2.html')">ページ2</button>
+            <button onclick="navigate('page3.html')">ページ3</button>
+            <button onclick="navigate('page4.html')">ページ4</button>
+        </div>
+    </main>
+    <footer>
+        <p>作成日時: <span id="creation-date"></span></p>
+    </footer>
 </body>
 </html>
